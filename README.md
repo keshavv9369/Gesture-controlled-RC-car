@@ -52,12 +52,12 @@ Wireless communication between the transmitter and receiver is implemented using
 
 A simple data structure is used to transmit control information:
 
-
+```cpp
 struct DataPacket {
   int power_f_b;  // Forward / Backward control
   int power_l_r;  // Left / Right control
 };
-
+```md
 ## Conceptual Working of the System
 
 The core idea of this project is to convert **hand motion into vehicle motion** using an embedded sensing and control approach.
