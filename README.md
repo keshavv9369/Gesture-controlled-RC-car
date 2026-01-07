@@ -52,7 +52,7 @@ Wireless communication between the transmitter and receiver is implemented using
 
 A simple data structure is used to transmit control information:
 
-```cpp
+
 struct DataPacket {
   int power_f_b;  // Forward / Backward control
   int power_l_r;  // Left / Right control
